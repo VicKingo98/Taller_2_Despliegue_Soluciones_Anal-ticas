@@ -20,6 +20,7 @@ app.config.suppress_callback_exceptions = True
 
 # Función de carga y preparación de datos energéticos
 # Modificación realizada en la rama victor-viz
+# Los datos energéticos se cargan desde un archivo CSV local.
 
 # Load data from csv
 def load_data():
