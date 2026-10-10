@@ -18,6 +18,8 @@ app.title = "Dashboard energia"
 server = app.server
 app.config.suppress_callback_exceptions = True
 
+# Función de carga y preparación de datos energéticos
+# Modificación realizada en la rama victor-viz
 
 # Load data from csv
 def load_data():
