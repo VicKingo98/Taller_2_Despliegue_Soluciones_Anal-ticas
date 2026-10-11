@@ -21,7 +21,8 @@ app.config.suppress_callback_exceptions = True
 # Función de carga y preparación de datos energéticos
 # Modificación realizada en la rama victor-viz
 # Los datos energéticos se cargan desde un archivo CSV local.
-
+# Preparación de datos para la visualización y el pronóstico energético
+# Actualización realizada mediante trabajo colaborativo en GitHub
 # Load data from csv
 def load_data():
     df = pd.read_csv("datos_energia.csv")
